@@ -66,6 +66,7 @@ p {
 	grid-column: 1/5;
 	grid-row: 3/48;
 	background-color: #656565;
+	color: green;
 	background: url(https://cdn.pixabay.com/photo/2016/10/27/22/53/heart-1776746_960_720.jpg) no-repeat;
 	background-size: cover;
 */
