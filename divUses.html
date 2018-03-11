@@ -1,0 +1,87 @@
+<head>
+		<title>About-website</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		
+		<style>
+
+			.wrapper {
+				display: grid;
+				/*	grid-template-columns: 50% 30% 20%;	*/
+				/*	grid-template-columns: 1fr 3fr 2fr;	*/
+				/*	grid-template-columns: repeat(3, 1fr);	*/
+					grid-template-columns: repeat(3, 1fr);
+					grid-gap: 1em;
+				/*	grid-auto-rows: 100px;	*/
+					grid-auto-rows: minmax(100px, auto);
+			}
+			.wrapper > div {
+				background: #e332ee;
+				padding: 1em;
+			}
+			.wrapper > div:nth-child(odd){
+				background: #ddd;
+			}
+
+			.nested {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				grid-auto-rows: 70px;
+				grid-gap: 1em;
+			}
+			.nested > div {
+				border: #333 1px solid;
+				padding: 1em;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<img src="file:///E:/Download/myWebsiteMaterials/websites/website2/images/logo2.png" height="65px" width="65px" align="left" alt="logo" />
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="index.html">ABOUT</a></li>
+				<li><a href="index.html">SERVICES</a></li>
+			</ul>
+		</nav>
+
+		<div class="wrapper">
+			<div>
+				Hello everyone, and thanks for visiting my website. Hello everyone, and thanks for visiting my website.Hello everyone, and thanks for visiting my website.
+			</div>
+			<div>
+				Stay with me and I will be providing you
+			</div>
+			<div class="nested">
+				<div>Aeliya</div>
+				<div>Tamang</div>
+				<div>Student</div>
+				<div>Tamang</div>
+				<div>Aeliya</div>
+				<div>Tamang</div>
+			</div>
+			<div>
+				thanks for visiting my website.
+			</div>
+			<div>
+				I am a student.
+			</div>
+			<div>
+				Hello everyone,
+			</div>
+			<div>
+				Stay with me and I will be providing you
+			</div>
+			<div>
+				I am Aeliya Tamang
+			</div>
+			<div>
+				thanks for visiting my website.
+			</div>
+			<div>
+				I am a student.
+			</div>
+	</body>
+
+</html>
