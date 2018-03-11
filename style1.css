@@ -61,7 +61,7 @@ p {
 	margin-bottom: 5px;
 	padding-left: 10px;
 	padding-top: 10px;
-	background: url(file:///E:/Download/myWebsiteMaterials/websites/trialWebsite1/images/Guitarist.jpg) no-repeat;
+	background: url(https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg) no-repeat;
 	background-size: cover;
 }
 
@@ -75,7 +75,7 @@ p {
 .box2 {
 	grid-column: 1/20;
 	grid-row: 35/55;
-	background: url(file:///E:/Download/myWebsiteMaterials/websites/trialWebsite1/images/t-series-2017-alt.jpg) no-repeat;
+	background: url(https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg) no-repeat;
 	background-size: cover;
 	margin-bottom: 5px;
 }
@@ -106,7 +106,7 @@ p {
 	grid-column: 1/20;
 	grid-row: 65/100;
 	background-color: blue;
-	background: url(file:///E:/Download/myWebsiteMaterials/websites/trialWebsite1/images/guitar-classical.jpg) no-repeat;
+	background: url(https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg) no-repeat;
 	background-size: cover;
 }
 
